@@ -17,42 +17,42 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 2rem 1rem;
+  padding: 3rem 1.5rem;
   min-height: 100vh;
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: var(--accent);
-  margin-bottom: 2rem;
-  font-weight: 600;
+  margin-bottom: 3rem;
+  font-weight: 700;
   text-align: center;
   letter-spacing: 0.05em;
 }
 
 .card {
   width: 100%;
-  max-width: 400px;
-  background: rgba(255, 255, 255, 0.7);
-  border-radius: 20px;
-  backdrop-filter: blur(10px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-  padding: 1.5rem;
+  max-width: 500px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 24px;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+  padding: 2rem;
   animation: fadeIn 0.8s ease-out;
 }
 
 .cafeteria-name {
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   font-weight: bold;
   color: var(--text);
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .progress-bar-container {
   background-color: #eee;
-  border-radius: 10px;
+  border-radius: 12px;
   overflow: hidden;
-  height: 20px;
+  height: 28px;
 }
 
 .progress-bar {
@@ -64,10 +64,10 @@ h1 {
 
 .percent {
   text-align: right;
-  margin-top: 0.5rem;
+  margin-top: 1rem;
   font-weight: bold;
   color: var(--text);
-  font-size: 1.1rem;
+  font-size: 1.4rem;
 }
 
 @keyframes fadeIn {
@@ -75,12 +75,25 @@ h1 {
   to { opacity: 1; transform: translateY(0); }
 }
 
-@media (max-width: 480px) {
+/* スマホ特化のサイズ調整（小さすぎる画面対応） */
+@media (max-width: 400px) {
   h1 {
-    font-size: 1.8rem;
+    font-size: 2rem;
+  }
+
+  .cafeteria-name {
+    font-size: 1.4rem;
+  }
+
+  .percent {
+    font-size: 1.2rem;
   }
 
   .card {
-    padding: 1rem;
+    padding: 1.5rem;
+  }
+
+  .progress-bar-container {
+    height: 24px;
   }
 }
