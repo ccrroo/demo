@@ -33,10 +33,10 @@ h1 {
   letter-spacing: 0.03em;
   line-height: 1.2;
   text-shadow: 
-    -1px -1px 0 #fff,  
-     1px -1px 0 #fff,
-    -1px  1px 0 #fff,
-     1px  1px 0 #fff;
+    -5px -5px 0 #fff,  
+     5px -5px 0 #fff,
+    -5px  5px 0 #fff,
+     5px  5px 0 #fff;
 }
 
 .card {
