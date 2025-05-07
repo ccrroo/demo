@@ -13,7 +13,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Helvetica Neue', sans-serif;
-  background: url('https://www.transparenttextures.com/patterns/wood-pattern.png'); 
+  background: url('image/moku.jpg'); 
   background-size: 300px auto;
   animation: backgroundScroll 30s linear infinite;
   display: flex;
