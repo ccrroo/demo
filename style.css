@@ -53,7 +53,7 @@ h1 {
   background-color: #eee;
   border-radius: 12px;
   overflow: hidden;
-  height: 8vw; /* スマホで目立つように大きく */
+  height: 30px; 
 }
 
 .progress-bar {
